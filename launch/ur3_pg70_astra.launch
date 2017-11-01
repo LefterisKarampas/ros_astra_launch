@@ -1,0 +1,11 @@
+<launch>
+
+<include file="$(find astra_launch)/launch/astra.launch">
+    <arg name="depth_registration" value="True" />
+</include>
+
+<include file="$(find camera_test)/launch/markers_reverse.launch"/>
+
+<!--<include file="$(find camera_test)/launch/camera_tf.launch"/>-->
+
+</launch> 
