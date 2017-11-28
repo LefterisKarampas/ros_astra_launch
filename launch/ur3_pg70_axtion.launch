@@ -1,6 +1,6 @@
 <launch>
 
-<include file="$(find astra_launch)/launch/astra.launch">
+<include file="$(find astra_launch)/launch/axtion.launch">
     <arg name="depth_registration" value="True" />
 </include>
 
